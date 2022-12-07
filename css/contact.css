@@ -49,3 +49,13 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .formcontato__text{
+        width: 100%;
+    }
+
+    .formcontato__boton{
+        margin: auto;
+    }
+}
