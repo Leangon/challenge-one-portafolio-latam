@@ -1,0 +1,46 @@
+/*Sección Menu*/
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 16px 0;
+}
+
+.menu__title{
+    margin-left: 0.5rem;
+}
+
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+}
+
+.menu__list__item{
+    padding: 0 0.7rem;
+}
+
+.contact{
+    font-weight: 700;
+}
+
+.menu__header{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu__list__item{
+        display: none;
+    }
+
+    .contact{
+        visibility: visible;
+    }
+
+    .menu{width: 90%;}
+    
+    }

@@ -7,14 +7,45 @@ coloque nas sessões indicadas*/
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
+   --cor-de-fondo: #F0E9D2;
    --cor-de-link: #000;
-}
+   --cor-de-cards: #678983;
+   --cor-de-skills: #ffffff;
+   --cor-de-letra: #181D31;
+
+    --font-family-body: "Montserrat", sans-serif;
+    --font-family-logo: "Pacifico", cursive;
+    --font-family-raleway: "Raleway", sans-serif;
+  
+    --font-weigth-input: 300;
+  
+    --font-size-logo: 28px;
+    --font-size-card-title: 28px;
+    --font-size-input-label: 20px;
+    --font-size-button: 22px;
+    --font-size-form-fieldset: 22px;
+    --font-size-table-header: 22px;
+    --font-size-modal-title: 28px;
+    --font-size-modal-button: 28px;
+  
+    --primary-color: #0071ea;
+    --secondary-color: #d6eaff;
+    --contrast-dark-color: #4d4d4d;
+  
+    --contrast-light-color: #fff;
+    --warning-color: #181D31;
+    --success-color: #047900;
+    --transparency-color: #4d4d4d33;
+  
+    --shadow: 0 5px 10px #55a6ff38;
+  }
+
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+    background-color: var(--cor-de-fondo) ;
     font-family: 'Raleway';
+    /* font-size: 8px; */
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -39,60 +70,14 @@ con una interfaz de usuario compleja, y permite la reutilización del código ex
 Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
-/*Sección Menu*/
 
-section.menu{
-
-}
-
-/*Sección Title*/
-
-section.title{
-
-}
-
-/*Sección About*/
-
-section.about{
-
-}
-
-/*Sección Hobbies*/
-
-section.hobbies{
-    
-}
-
-/* Experiencia Académica*/
-
-section.academic{
-
-}
-
-/* experiencia*/
-
-section.experience{
-
-}
-
-/*Contacto*/
-
-section.formcontato{
-
-}
-
-/*footeer*/
-
-section.footer{
-   
-}
 
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
 /* Menú */
 

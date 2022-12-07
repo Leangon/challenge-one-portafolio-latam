@@ -4,7 +4,7 @@
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169097543-d5ada41e-7db8-481d-9d89-cef4efdf7e05.png">
 </p>
 
-
+<!-- 
 ### ¡Bienvenido al proyecto base del Portafolio ! Pasos principales:
 ---
 #### Marca este proyecto con una estrella ⭐
@@ -49,5 +49,5 @@ Incluye la etiqueta "**challengeoneportafolio2**" o "**challengeoneportafolio3**
 6) ¡No olvides publicar un link o un vídeo de tu proyecto en Linkedin! 🏁
 
 <a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank">
-<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> -->
 

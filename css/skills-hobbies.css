@@ -1,0 +1,62 @@
+/** Seccion skill
+/** Sección Hobbies*/
+
+.skills, .hobbies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.skills__line, .hobbies__line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 70%;
+    margin: 1rem auto;
+}
+
+.skills__box, .hobbies__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    width: 176px;
+    height: 174px;
+    padding: 1rem 0;
+    background: var(--cor-de-skills);
+}
+
+.skills__img, .skills__name, .hobbies__img, .hobbies__name{
+    padding: 0.4rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .skills__line, .hobbies__line{
+        width: 90%;
+    }
+
+    .skills__box, .hobbies__box{
+        width: 30%;
+        height: 114px;
+        padding: 0.2rem;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+.skills__line, .hobbies__line{
+    gap: 0.5rem;
+   
+}
+
+    .skills__box, .hobbies__box{
+        width: 45%;
+        margin: 0.4rem 0;
+    }
+}

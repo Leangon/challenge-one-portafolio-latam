@@ -1,0 +1,51 @@
+/**Contacto*/
+
+.formcontato{
+    
+    background-color: var(--cor-de-cards);
+}
+
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.formcontato__boton{
+    width: 150px;
+}
+
+
+.footer__rodape{
+    padding: 2rem;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .formcontato__contacto{
+        width: 90%;
+    }
+
+    .formcontato--esquerda{
+        display: none;
+    }
+}
